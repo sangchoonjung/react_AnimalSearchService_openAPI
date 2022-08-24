@@ -1,0 +1,12 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.detail+.list{
+    width: 40%;
+    overflow-y: scroll;
+}
+.detail+.list .item{
+    width: 100%;
+}
