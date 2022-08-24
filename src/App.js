@@ -16,7 +16,7 @@ function App() {
     setLoading(true);
     const key = process.env.REACT_APP_API_KEY;
 
-    fetch(`http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?serviceKey=${key}&_type=json&numOfRows=30`)
+    fetch(`https://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?serviceKey=${key}&_type=json&numOfRows=30`)
       .then(response => response.json())  // 외울것
       .then((json) => {
         setPets(json.response.body.items.item);
@@ -32,7 +32,7 @@ function App() {
   const handleSearch = (bgnde, endde, upr_cd = "6290000") => {
     const key = process.env.REACT_APP_API_KEY;
 
-    fetch(`http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?serviceKey=${key}&_type=json&numOfRows=32&bgnde=${bgnde}&endde=${endde}&upr_cd=${upr_cd}`)
+    fetch(`https://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?serviceKey=${key}&_type=json&numOfRows=32&bgnde=${bgnde}&endde=${endde}&upr_cd=${upr_cd}`)
       .then(response => response.json())  // 외울것
       .then((json) => {
         setPets(json.response.body.items.item)
