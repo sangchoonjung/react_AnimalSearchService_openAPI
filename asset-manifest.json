@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react_AnimalSearchService_openAPI/static/css/main.1c44c5ac.css",
+    "main.js": "/react_AnimalSearchService_openAPI/static/js/main.00ac8a3a.js",
+    "static/media/Spinner.gif": "/react_AnimalSearchService_openAPI/static/media/Spinner.a5165cacbb22a55be504.gif",
+    "index.html": "/react_AnimalSearchService_openAPI/index.html",
+    "main.1c44c5ac.css.map": "/react_AnimalSearchService_openAPI/static/css/main.1c44c5ac.css.map",
+    "main.00ac8a3a.js.map": "/react_AnimalSearchService_openAPI/static/js/main.00ac8a3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c44c5ac.css",
+    "static/js/main.00ac8a3a.js"
+  ]
+}
