@@ -1,24 +1,23 @@
-.item{
-    width: 25%;
-    display: flex;
-    cursor: pointer;
-    padding: 3px;
-    border: 2px solid rgb(235, 157, 13);
-    text-align: center;
+.item {
+  width: 30%;
+  display: flex;
+  cursor: pointer;
+  padding: 3px;
+  border: 2px solid rgb(235, 157, 13);
+  text-align: center;
 }
 
-.thumnail{
-    width: 150px;
-    height: 200px;
-    object-fit: cover;
+.thumnail {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
 }
-.inform{
-    text-align: center;
-
+.inform {
+  text-align: center;
 }
-.petsNameInList{
-    font-weight: bold;
+.petsNameInList {
+  font-weight: bold;
 }
-.item:hover{
-    transform: scale(1.1);
+.item:hover {
+  transform: scale(1.1);
 }

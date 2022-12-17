@@ -1,7 +1,10 @@
-input[type=date],select,button {
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 204, 153);
+input[type="date"],
+select,
+button {
+  width: 180px;
+  height: 40px;
+  font-size: 18px;
+  color: "black";
+  background-color: rgb(230, 183, 136);
+  cursor: pointer;
 }
